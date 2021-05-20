@@ -58,13 +58,15 @@ cp .env.example .env
 # abre o arquivo .env e altera as variaveis caso necessário
 ```
 
-Migration e seed de banco de dados:
+Antes de executar o projeto, será necessário realizar uma migration através do ORM Sequelize. Dessa forma serão criadas a primeiras tabelas do projeto. Ao realizar a comando de reset, será chamado o seed do ORM, populando assim algumas tabelas:
 ```bash
 npm run migrate
 ou
 npm run migrate:reset
 # ou, seguinte comando de reset caso já existe um banco de dados
 ```
+
+## Execução do projeto
 
 Executando localmente em ambiente de desenvolvimento:
 ```bash
