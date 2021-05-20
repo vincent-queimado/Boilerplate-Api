@@ -3,7 +3,7 @@
 # Boilerplate - Servidor RESTful API para inciar uma API do zero
 
 ## Sobre o boilerplate  
-O projeto de boilerplate tem por objetivo de agilizar o desenvolvimento de uma API a partir do framework Express e pacotes de recursos e ferramentas padrão, como validação com JOI, autenticação via token JWT, gestão de banco de dados via o ORM Sequelize, comunicação via SocketIO, testes unitários com o Jest, entre outros.  
+O projeto de boilerplate tem por objetivo de agilizar o desenvolvimento de uma API a partir do framework Express e pacotes de recursos e ferramentas amplamente difundida em projeto ao exemplo de validação com JOI, autenticação via token JWT, gestão de banco de dados via o ORM Sequelize, comunicação via SocketIO, envio de email com Sendgrid, logging com Winston, testes unitários com Jest, entre outros.  
 
 ## Estrutura
 
