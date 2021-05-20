@@ -1,4 +1,4 @@
-<img src="https://github.com/vincent-queimado/boilerplate/blob/main/public/assets/images/logo.png?raw=true" alt="Logo" height="100px"/>
+<img src="https://github.com/vincent-queimado/boilerplate-api/blob/main/public/assets/images/logo.png?raw=true" alt="Logo" height="100px"/>
 
 # Boilerplate - Servidor RESTful API para inciar uma API do zero
 
