@@ -1,0 +1,20 @@
+{
+    "web": {
+        "client_id": "12345678901234.apps.googleusercontent.com",
+        "project_id": "project-1234567890",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "ABCDEFG",
+        "redirect_uris": {
+            "development": "http://0.0.0.0:3333/signin/google_validation", 
+            "staging": "https://0.0.0.0:3333/signin/google_validation",
+            "production": "https://0.0.0.0:3333/signin/google_validation"
+        },
+        "javascript_origins": {
+            "development": "http://0.0.0.0",
+            "staging": "https://0.0.0.0",
+            "production": "https://0.0.0.0"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "presets": [
+      [
+      "@babel/preset-env", {
+        "targets": {
+          "node": "current"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      ["@babel/transform-runtime"],
+      [
+        "module-resolver",
+        {
+          "alias": {
+            "@core": "./src/core",
+            "@config": "./src/config",
+            "@routes": "./src/routes",
+            "@package": "./package",
+            "@services": "./src/services",
+            "@middlewares": "./src/middlewares",
+            "@utils": "./src/utils",
+            "@validations": "./src/validations",
+            "@apictrl": "./src/api/controllers",
+            "@apiprst": "./src/api/presenters",
+            "@apiserv": "./src/api/services",
+            "@apimods": "./src/api/models"
+          }
+        }
+      ],
+      ["transform-html-import-to-string"]
+    ]
+  }
