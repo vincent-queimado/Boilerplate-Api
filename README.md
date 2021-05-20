@@ -3,8 +3,9 @@
 # Boilerplate - Servidor RESTful API para inciar uma API do zero
 
 ## Sobre o boilerplate  
-Boilerplate desenvolvido a partir de NodeJs para inciar uma API do zero. 
-O boilerplate utiliza o framework Express, bibliotecas como SocketIO, Sequelize, Babel, Joi, Jest, entre outros...
+Boilerplate desenvolvido a partir de NodeJs para inciar uma API do zero.
+
+O boilerplate utiliza o framework Express, bibliotecas como SocketIO, ORM Sequelize, Babel, Joi, Jest, entre outros...
 
 ## Estrutura
 
@@ -34,7 +35,9 @@ test\
 
 ## Instalação 
 
-Antes de instalar e executar o projeto, é necessário instalar e configurar um banco de dados Postgres. Obs.: É possível criar uma aplicação de conta no Heroku (conta grátis), e em seguida adicionar o recurso (add-on) de banco de dados "Heroku Posgres".
+Antes de instalar e executar o projeto, é necessário instalar e configurar um banco de dados Postgres.
+
+Obs.: É possível criar uma aplicação na plataforma Heroku (criação de conta grátis https://signup.heroku.com/), e em seguida adicionar o recurso (add-on) de banco de dados "Heroku Posgres".
 
 Para realizar a instalação do projeto, segue o passo a passo abaixo.
 
