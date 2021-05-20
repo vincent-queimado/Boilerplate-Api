@@ -52,10 +52,45 @@ Instalação de dependências:
   npm install
 ```
 
-Configuração de variavéis de ambiente:
+Configuração de variavéis de ambiente. O comando abaixo irá copiar o arquivo de exemplo para o arquivo de variaveis de ambiente necessário a inicialização do projeto:
 ```bash
 cp .env.example .env
 # abre o arquivo .env e altera as variaveis caso necessário
+```
+Exemplo de configuração de arquivo .env:
+```bash
+APP_NAME=API-PROJECT-BASE
+
+APP_WEB_URL=0.0.0.0
+APP_WEB_PORT=3333
+
+APP_API_URL=0.0.0.0
+APP_API_PORT=8080
+
+APP_SOCKETIO_PORT=3334
+
+APP_SESSION_SECRET=secretsession
+APP_SESSION_MAX_AGE=3600000
+
+APP_JWT_EXPIRED_IN=24h
+
+DATABASE_HOST=000-12-111-333-786.compute-1.amazonaws.com
+DATABASE_PORT=5432
+DATABASE_SCHEMA=public
+DATABASE_DATABASE=ea566a56bc
+DATABASE_USERNAME=resegalifetest
+DATABASE_PASSWORD=efae097f7e87af7a89f7fa97
+
+SENDGRID_API_KEY=_fjsdjfsdjkldjdadjalkdjadjkladjalkjd.key
+SENDGRID_API_FROM_EMAIL="Projeto x" <projeto@email.com>
+SENDGRID_API_USE_LOCAL_TEMPLATE=true
+
+SMTP_SERVICE=gmail
+SMTP_USER=admin
+SMTP_PASSWORD=password
+
+SUPER_ADMIN_EMAIL=projeto@email.com
+SUPER_ADMIN_PASSWORD=password
 ```
 
 Antes de executar o projeto, será necessário realizar uma migration através do ORM Sequelize. Dessa forma serão criadas a primeiras tabelas do projeto. Ao realizar a comando de reset, será chamado o seed do ORM, populando assim algumas tabelas:
