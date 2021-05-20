@@ -3,11 +3,11 @@
 # Boilerplate - Servidor RESTful API para inciar uma API do zero
 
 ## Sobre o boilerplate  
-Boilerplate desenvolvido a partir de NodeJs para inciar uma API do zero.
-
-O boilerplate utiliza o framework Express, bibliotecas como SocketIO, ORM Sequelize, Babel, Joi, Jest, entre outros...
+O projeto de boilerplate tem por objetivo de agilizar o desenvolvimento de uma API a partir do framework Express e pacotes de recursos e ferramentas padrão, como validação com JOI, autenticação via token JWT, gestão de banco de dados via o ORM Sequelize, comunicação via SocketIO, testes unitários com o Jest, entre outros.  
 
 ## Estrutura
+
+A arquitetura atual do boilerplate segue um padrão customizado com base entre os modelos MVC e MVP:
 
 ```
 dist\
@@ -47,7 +47,7 @@ Clone do repositório:
   cd boilerplate-api
 ```
 
-Instalação de dependências:
+Instalação de dependências/pacotes necessário ao projeto:
 ```bash
   npm install
 ```
